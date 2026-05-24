@@ -1,0 +1,100 @@
+/* Reset & Base */
+body {
+    margin: 0;
+    padding: 0;
+    font-family: "Segoe UI", Tahoma, Geneva, Verdana, sans-serif;
+    background-color: #f8f9fa;
+    color: #333;
+}
+
+/* Container */
+.container {
+    max-width: 600px;
+    margin: 40px auto;
+    padding: 30px;
+    background-color: #ffffff;
+    border-radius: 12px;
+    box-shadow: 0 4px 12px rgba(0, 0, 0, 0.1);
+}
+
+/* Heading */
+.container h1 {
+    text-align: center;
+    margin-bottom: 30px;
+    font-size: 28px;
+    color: #222;
+}
+
+/* Form Group */
+.form-group {
+    margin-bottom: 20px;
+}
+
+.form-group label {
+    display: block;
+    font-weight: 600;
+    margin-bottom: 8px;
+}
+
+.form-group input[type="number"],
+.form-group select,
+.form-group textarea {
+    width: 100%;
+    padding: 10px;
+    border: 1px solid #ccc;
+    border-radius: 8px;
+    font-size: 16px;
+    transition: border-color 0.3s ease;
+}
+
+.form-group input:focus,
+.form-group textarea:focus,
+.form-group select:focus {
+    border-color: #007bff;
+    outline: none;
+}
+
+/* Actions */
+.form-actions {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin-top: 30px;
+}
+
+.form-actions button {
+    background-color: #007bff;
+    color: #fff;
+    padding: 12px 20px;
+    border: none;
+    border-radius: 8px;
+    font-size: 16px;
+    cursor: pointer;
+    transition: background-color 0.3s ease;
+}
+
+.form-actions button:hover {
+    background-color: #0056b3;
+}
+
+.cancel-link {
+    text-decoration: none;
+    color: #6c757d;
+    font-size: 16px;
+    transition: color 0.3s ease;
+}
+
+.cancel-link:hover {
+    color: #343a40;
+}
+
+/* Flash Message */
+.flash {
+    margin-bottom: 20px;
+    padding: 12px 18px;
+    background-color: #d4edda;
+    border: 1px solid #c3e6cb;
+    color: #155724;
+    border-radius: 8px;
+    font-size: 16px;
+}
